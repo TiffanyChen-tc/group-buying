@@ -11,3 +11,10 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+Usage
+npx hardhat compile
+npx hardhat run --network volta scripts/deploy.js
+
+>>react-app
+npm start
